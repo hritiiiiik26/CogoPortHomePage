@@ -93,6 +93,7 @@ div {
     cursor: pointer;
 }
 
+a:hover{ color: tatty;}
 
 
 .navbar {
@@ -412,6 +413,11 @@ div {
 .styles_card_icon{
     display: flex;
     
+}
+.styles_card_icon > a{
+    color: var(--font-color-link);
+    text-decoration: none;
+    color:teal;
 }
 
 
