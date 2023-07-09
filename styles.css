@@ -409,7 +409,8 @@ a:hover{ color: tatty;}
     font-size: 28px;
     line-height: 4.2;
     background: #fffef2;
-
+    font-family: var(--font-family-heading);
+    color: var(--font-color-heading);
 
 }
 
@@ -469,7 +470,9 @@ a:hover{ color: tatty;}
     line-height: 1.2;
     margin-bottom: 10px;
 }
-
+.plBoxes:hover{
+  border:1.5px solid #ee3425;
+}
 
 .styles_marq_wrapper{
     position: relative;
@@ -928,5 +931,7 @@ a:hover{ color: tatty;}
         display: none;
     }
      
-
+    .last_section_p1{
+      display: none;
+    }
   }
