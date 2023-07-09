@@ -412,6 +412,8 @@ a:hover{ color: tatty;}
 
 
 }
+
+
 .styles_card_container{
     display: flex;
     justify-content: space-between;
@@ -453,7 +455,11 @@ a:hover{ color: tatty;}
     text-decoration: none;
     color:teal;
 }
-
+.aboutHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .about_head_h2{
     box-sizing: border-box;
     font-family: var(--font-family-heading);
@@ -463,14 +469,7 @@ a:hover{ color: tatty;}
     line-height: 1.2;
     margin-bottom: 10px;
 }
-.our_products > h3{
-    padding: 0;
-    margin-bottom: 0;
-    text-align: inherit;
-    font-size: 20px;
-    font-family: var(--font-family-heading);
-    color: var(--font-color-heading);
-}
+
 
 .styles_marq_wrapper{
     position: relative;
@@ -577,7 +576,8 @@ a:hover{ color: tatty;}
     justify-content: space-evenly;
 }
 .girl_img{
-
+    
+    width:100%;
     animation-duration: 4s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
@@ -823,7 +823,15 @@ a:hover{ color: tatty;}
      .plBoxes{
         width:80%;
      }
-
+     
+     .our_products > h3{
+        padding: 0;
+        margin-bottom: 0;
+        text-align: inherit;
+        font-size: 22px;
+        font-family: var(--font-family-heading);
+        color: var(--font-color-heading);
+    }
      .laptop_section{
         flex-direction: column;
      }
@@ -920,4 +928,5 @@ a:hover{ color: tatty;}
         display: none;
     }
      
+
   }
