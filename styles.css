@@ -568,6 +568,7 @@ a:hover{ color: tatty;}
 }
 .lap_img_sec > img{
   height:50vh;
+  width:100%;
  
 }
 .lap_sec_p1_up{
@@ -639,7 +640,21 @@ a:hover{ color: tatty;}
     justify-content: space-evenly;
     padding: 3.5em;
 }
-
+.get_started_button{
+  box-sizing: border-box;
+    display: inline-block;
+    height: 40px;
+    padding: 8px 42px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    text-decoration: none;
+}
 .blog_container{
     display: flex;
     justify-content: center;
@@ -978,3 +993,6 @@ a:hover{ color: tatty;}
       display: none;
     }
   }
+
+ 
+  
