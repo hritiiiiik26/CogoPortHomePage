@@ -200,7 +200,7 @@ a:hover{ color: tatty;}
     padding: 16px;
     display: flex;
     align-items: center;
-    width: 1200px;
+    width: 100%;
   }
   .sec1-text {
     color: #000 !important;
@@ -425,6 +425,7 @@ a:hover{ color: tatty;}
     display: flex;
     align-self: center;
     width: 80%;
+    align-items: center;
 
 }
 
@@ -434,6 +435,8 @@ a:hover{ color: tatty;}
     margin-right: 50px;
     font-size: 24px;
     color: #000;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 .plBoxes{
     flex-direction: column;
@@ -448,7 +451,11 @@ a:hover{ color: tatty;}
     box-shadow: 0 1px 6px rgba(169,188,218,.65);
 }
 .styles_card_icon{
+    
     display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 .styles_card_icon > a{
@@ -520,6 +527,7 @@ a:hover{ color: tatty;}
     display: flex;
     justify-content: center;
     padding-top: 4em;
+    width:100%;
    
 }
 
@@ -528,13 +536,47 @@ a:hover{ color: tatty;}
     flex-direction: column;
     
 }
+
+.linearrow-1 {
+  position: absolute;
+  top: 3260px;
+  left: 300px;
+}
+
+.linearrow-1 > img {
+  aspect-ratio: auto 150 / 59;
+  height: 59px;
+  box-sizing: border-box;
+  width: 150px;
+}
+
+.linearrow-2 {
+  position: absolute;
+  bottom: 116px;
+  left: 300px;
+}
+
+.linearrow-2 > img {
+  aspect-ratio: auto 150 / 59;
+  height: 59px;
+  box-sizing: border-box;
+  width: 150px;
+}
+.lap_img_sec{
+  align-self: center;
+  
+}
+.lap_img_sec > img{
+  height:50vh;
+ 
+}
 .lap_sec_p1_up{
       
        width: 300px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 1px 6px rgba(169,188,218,.65);
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 .lap_sec_p1_down{
     width: 300px;
@@ -549,7 +591,7 @@ a:hover{ color: tatty;}
  padding: 30px;
  border-radius: 10px;
  box-shadow: 0 1px 6px rgba(169,188,218,.65);
- margin-bottom: 5em;
+ margin-bottom: 10em;
 }
 .lap_sec_p3_down{
   
@@ -678,7 +720,8 @@ a:hover{ color: tatty;}
     transition: .15s ease-in-out;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
     body,html {
         max-width: 100%;
         min-width: 100%;
